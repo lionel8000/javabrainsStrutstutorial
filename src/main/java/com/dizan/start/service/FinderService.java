@@ -5,8 +5,8 @@ public class FinderService implements FinderServiceInterface {
      * 
      */
 	@Override
-	public String getPassTutorialService() {
-		return "Values return from the Services";
+	public String getPassTutorialService(String lang) {
+		return "Values return from the Services" + lang;
 	}
     
 }
